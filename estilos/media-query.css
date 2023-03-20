@@ -8,6 +8,7 @@
     
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -30,6 +31,7 @@
     
     section#login {
         width: 950px;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -49,5 +51,16 @@
 
     div#form > p {
         font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    form > input[type=submit] {
+        width: 49%;
+        display: inline-block;
+    }
+    
+    form > a.botao {
+        width: 49%;
+        display: inline-block;
     }
 }
